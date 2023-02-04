@@ -2,8 +2,8 @@
     import "../app.css";
   </script>
 
-<div class="h-screen w-screen layout flex items-center justify-center">
- <img src="/logo/logo.png" alt="logo" class="h-16 w-16"/>
+<div class="h-screen w-screen layout">
+<slot></slot>
 </div>
 <style>
     .layout{
