@@ -2,7 +2,7 @@
     import "../../app.css";
   </script>
 
-<div class="h-screen w-screen layout">
+<div class="w-screen layout">
 <slot></slot>
 </div>
 <style>

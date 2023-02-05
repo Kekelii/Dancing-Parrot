@@ -1,8 +1,7 @@
 <script>
-  import Main from "$lib/about-body/main.svelte";
 import MobileNavigation from "$lib/navigations/mobileNavigation.svelte";
+import Main from "$lib/store-body/main.svelte";
 
 </script>
-
 <MobileNavigation/>
 <Main/>
