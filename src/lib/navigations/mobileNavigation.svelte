@@ -24,7 +24,7 @@
         <a href="/Episodes" class='flex justify-center'>  <button class="h-12 P-5"><li>EPISODES</li></button></a>
         <a href="/Tribe" class='flex justify-center'> <button class="h-12 P-5"><li>THE TRIBE</li></button></a>
         <a href="About" class='flex justify-center'>  <button class="h-12 P-5"><li>ABOUT</li></button></a>
-        <a href="/stores" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a>
+        <a href="/Store" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a>
         <button class="h-12 m-2 rounded-lg subscribe">SUBSCRIBE</button>
     </ul>
 </div>
