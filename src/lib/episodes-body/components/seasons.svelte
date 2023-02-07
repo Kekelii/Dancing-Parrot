@@ -1,28 +1,31 @@
 <script>
-  import EpisodeContainer from "./episode-container.svelte";
+// @ts-nocheck
+
+  import EpisodeContainer  from "./episode-container.svelte";
   export let seasonnumber = 1;
 
 </script>
 <div class=" mt-14">
-    <p class="uppercase text-4xl font-light ml-5 leading-10 tracking-wide inline-block ">Season {seasonnumber}</p>
-    <div class="episodes mt-5 flex flex-wrap  md:gap-0 gap-2 p-1 justify-around md:justify-start">
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/> <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
-        <EpisodeContainer/>
+    <p class="uppercase text-4xl font-light leading-10 tracking-wide inline-block mb-5  ml-5 ">Season {seasonnumber}</p>
+    <div class="episodes flex flex-wrap gap-2 p-1 justify-evenly md:gap-0 md:justify-start">
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+         <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
+        <EpisodeContainer season={seasonnumber}/>
 
     </div>
 </div>
