@@ -13,7 +13,7 @@
    
 </script>
 
-<div class="container w-screen h-24 flex justify-between items-center ">
+<div class=" md:hidden w-screen h-24 flex justify-between items-center ">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5 rounded-lg">
     <button on:click={open} class=" h-12 w-10"><img src="/buttonIcons/navButton.png" alt="navigation button"/></button>
 </div>

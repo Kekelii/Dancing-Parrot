@@ -3,7 +3,7 @@
   import Product from "./product.svelte";
 
 </script>
-<div class="container justify-around mt-14 flex flex-wrap gap-2 p-3 ">
+<div class=" mt-14 flex flex-wrap  md:gap-10  p-5 ">
       <Product/>
       <Product/>
       <Product/>

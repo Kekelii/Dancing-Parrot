@@ -25,7 +25,7 @@ import { cubicInOut, cubicOut} from 'svelte/easing';
 </script>
 
 <!-- svelte-ignore non-top-level-reactive-declaration -->
-<div class="container w-screen h-20 mt-5 flex items-center ">
+<div class="w-screen h-20 mt-5 md:mt-0 flex items-center ">
    <!-- svelte-ignore a11y-click-events-have-key-events -->
    <!-- <div on:click={snapleft} class="left-arrow w-8 h-8 bg-white absolute rounded-full flex items-center justify-center" ><img src="/generalIcons/left arrow.png" alt="arrow"></div> -->
    <ul bind:this={list}  class='w-full h-20 flex uppercase items-center overflow-x-auto scroll-smooth' >

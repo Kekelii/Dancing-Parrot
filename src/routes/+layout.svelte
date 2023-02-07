@@ -2,7 +2,7 @@
     import "../app.css";
   </script>
 
-<div class="w-screen layout pb-8">
+<div class="w-screen  layout pb-8">
 <slot></slot>
 </div>
 <style>
