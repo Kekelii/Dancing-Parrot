@@ -1,6 +1,8 @@
 <script>
+// @ts-nocheck
+
     $:subscriberButton=false;
-    let youtubeChannel,twitterChannel,instagramChannel;
+    let youtubeSubscription,twitterFollowing,instagramFollowing;
 
 
 
@@ -8,7 +10,7 @@
         if(!subscriberButton){
       subscriberButton = true
             // @ts-ignore
-                gsap.from(instagramChannel,{
+                gsap.from(instagramFollowing,{
                     opacity:0.1,
                     yoyo:true,
                     ease: "elastic", 
@@ -17,7 +19,7 @@
                     delay:0.1
                 })  
                 // @ts-ignore
-                    gsap.from(twitterChannel,{
+                    gsap.from(twitterFollowing,{
                     y:30,
                     yoyo:true,
                     opacity:0.1,
@@ -26,7 +28,7 @@
                     delay:0.2
                 })
                     // @ts-ignore
-                    gsap.from(youtubeChannel,{
+                    gsap.from(youtubeSubscription,{
                     y:30,
                     yoyo:true,
                     opacity:0.1,
@@ -54,9 +56,9 @@
 </div>
 <div class='    flex justify-end '>
     <div class:hidden={!subscriberButton} class="h-14  w-60 absolute flex justify-around items-center mr-5">
-        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={youtubeChannel}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer" bind:this={twitterChannel}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={instagramChannel}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
    </div>
 </div>
 

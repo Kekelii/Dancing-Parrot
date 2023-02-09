@@ -1,45 +1,43 @@
 <script>
+// @ts-nocheck
+
   import { onMount } from "svelte";
 
 
 
 
-    $:state = false
-    $:subscriberButton = false
-    /**
-   * @type {HTMLDivElement}
-   */
-    let dropdown;
-    /**
-   * @type {HTMLAnchorElement}
-   */
-    let instagramChannel , youtubeChannel , twitterChannel;
+    $:mobileNavigationState = false
+    $:subscriberButtonState = false
+   
+    let mobileNavigation;
+   
+    let instagramFollowing , youtubeSubscription , twitterFollowing;
 
  
-   function open(){
-        if(state){
+   function navigationStateController(){
+        if(mobileNavigationState){
              // @ts-ignore
-             gsap.to(dropdown,{x:150,duration:1})
+             gsap.to(mobileNavigation,{x:150,duration:0.3})
 
-             subscriberButton? subscriberButtonClick():""
+             subscriberButtonState? subscriberButtonStateController():""
              
             setTimeout(()=>{
-                state = false
+                mobileNavigationState = false
                 
-            },1000)
+            },100)
             return
         }
     
            // @ts-ignore
-           gsap.fromTo(dropdown,{x:40},{x:4,duration:2,ease: "bounce.out"})
-           state = true
+           gsap.fromTo(mobileNavigation,{x:40},{x:4,duration:1,ease: "bounce.out"})
+           mobileNavigationState = true
           
     }
-    function subscriberButtonClick(){
-        if(!subscriberButton){
-      subscriberButton = true
+    function subscriberButtonStateController(){
+        if(!subscriberButtonState){
+      subscriberButtonState = true
             // @ts-ignore
-                gsap.from(instagramChannel,{
+                gsap.from(instagramFollowing,{
                     opacity:0.1,
                     yoyo:true,
                     ease: "elastic", 
@@ -48,7 +46,7 @@
                     delay:0.1
                 })  
                 // @ts-ignore
-                    gsap.from(twitterChannel,{
+                    gsap.from(twitterFollowing,{
                     y:30,
                     yoyo:true,
                     opacity:0.1,
@@ -57,7 +55,7 @@
                     delay:0.2
                 })
                     // @ts-ignore
-                    gsap.from(youtubeChannel,{
+                    gsap.from(youtubeSubscription,{
                     y:30,
                     yoyo:true,
                     opacity:0.1,
@@ -69,28 +67,28 @@
                 return
         }
          
-                subscriberButton=false
+                subscriberButtonState=false
     }
 
 </script>
 
 <div class=" md:hidden w-screen h-24 flex justify-between items-center drop">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5 rounded-lg">
-    <button on:click={open} class=" h-12 w-10"><img src="/buttonIcons/navButton.png" alt="navigation button"/></button>
+    <button on:click={navigationStateController} class=" h-12 w-10"><img src="/buttonIcons/navButton.png" alt="navigation button"/></button>
 </div>
 
-<div  class:hidden={!state} bind:this={dropdown} class="dropdown md:hidden absolute ml-36 opacity-90 w-52"  >
+<div  class:hidden={!mobileNavigationState} bind:this={mobileNavigation} class="mobileNavigation md:hidden absolute ml-36 opacity-90 w-52"  >
     <ul class='flex flex-col text-lg'>
         <a href="/" class='flex justify-center'><button class="h-12 p-5"><li>HOME</li></button></a>
         <a href="/Episodes" class='flex justify-center'>  <button class="h-12 P-5"><li>EPISODES</li></button></a>
         <a href="/Tribe" class='flex justify-center'> <button class="h-12 P-5"><li>THE TRIBE</li></button></a>
         <a href="About" class='flex justify-center'>  <button class="h-12 P-5"><li>ABOUT</li></button></a>
         <a href="/Store" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a>
-        <button class="h-12 m-2 rounded-lg subscribe" on:click={subscriberButtonClick}>SUBSCRIBE</button>
-        <li class:hidden={!subscriberButton} class=" w-full h-14  items-center justify-around subscribtionChannels flex">
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={youtubeChannel}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={twitterChannel}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={instagramChannel}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
+        <button class="h-12 m-2 rounded-lg subscribe" on:click={subscriberButtonStateController}>SUBSCRIBE</button>
+        <li class:hidden={!subscriberButtonState} class=" w-full h-14  items-center justify-around subscribtionChannels flex">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
         </li>
     </ul>
 </div>
@@ -103,7 +101,7 @@
         ul{
             font-family: Bison;
         }
-        .dropdown{
+        .mobileNavigation{
         background: linear-gradient(180deg, #FFFFFF 0%, #FFFACB 100%);
 
         }
