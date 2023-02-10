@@ -6,7 +6,7 @@ import Header from "./components/header.svelte";
   import Seasons from "./components/seasons.svelte";
 
 </script>
-<div class="  mt-16 flex flex-col">
+<div class="container mx-auto mt-16 flex flex-col">
     <Header/>
     <EpisodesNumbers/>
     <Seasons seasonnumber=3/>

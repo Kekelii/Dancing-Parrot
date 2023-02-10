@@ -5,7 +5,9 @@ import Header from "./components/header.svelte";
   import Writeup from "./components/writeup.svelte";
 
 </script>
+<div class="container mx-auto">
 <Header/>
 <Writeup/>
 <Hosts/>
 <Footer/>
+</div>

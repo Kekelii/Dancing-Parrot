@@ -2,7 +2,7 @@
     import "../app.css";
   </script>
 
-<div class="w-screen  layout pb-8">
+<div class=" overflow-hidden  layout pb-8 m-0 ">
 <slot></slot>
 </div>
 <style>
