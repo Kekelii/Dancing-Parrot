@@ -12,8 +12,7 @@
    
 </script>
 
-<div class="flex flex-col justify-between  h-72 w-1/2 p-3 md:w-72 md:h-96 md:p-5 md:mt-10 uppercase mb-3  md:shadow-lg">
-   
+<div class="flex flex-col justify-between  h-72 w-1/2 p-3 md:w-72 md:h-96 md:p-5 md:mt-10 uppercase mb-3  md:shadow-lg"> 
     <div class=" h-4/5  shrink-0">
         <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
     </div>

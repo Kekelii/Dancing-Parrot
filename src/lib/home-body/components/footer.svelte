@@ -8,7 +8,7 @@
     <a href="https://www.facebook.com/Kasathetribe" target="_blank" rel="noopener noreferrer" class="ml-5"><img src="/generalIcons/facebook.svg" alt="instagramAccount" srcset=""></a>
     
     <span class="ml-5">The kasa Podcast</span> 
-    <span class='ml-2 flex justify-around w-20 '>
+    <span class='ml-2 flex justify-around md:w-20 '>
         <span>Ⓒ</span>
         <span>{date}</span>
     </span>
