@@ -1,7 +1,8 @@
 <script>
 // @ts-nocheck
 
-  import EpisodesNumbers from "./components/episodes-numbers.svelte";
+  import Footer from "$lib/home-body/components/footer.svelte";
+import EpisodesNumbers from "./components/episodes-numbers.svelte";
 import Header from "./components/header.svelte";
   import Seasons from "./components/seasons.svelte";
 
@@ -12,6 +13,5 @@ import Header from "./components/header.svelte";
     <Seasons seasonnumber=3/>
     <Seasons seasonnumber=2/>
     <Seasons seasonnumber=1/>
-
-
 </div>
+<Footer/>

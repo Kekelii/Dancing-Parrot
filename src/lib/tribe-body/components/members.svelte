@@ -17,49 +17,59 @@
     image:'Efia yeboah.jpeg'
   },
   {
-    name:'unknown',
+    name:'Christopher Kuetsinya',
     facebook:'false',
     instagram:'https://www.instagram.com/chris_kuetsinya/  ',
     twitter:'https://twitter.com/chris_kuet',
     linkedIn:'false',
-    image:'member1.jpeg'
+    image:'Christopher Kuetsinya.jpeg'
   },
   {
-    name:'unknown',
+    name:'Kwesi Frost',
     facebook:'false',
     instagram:'https://www.instagram.com/gbemi_ts3/',
     twitter:'https://twitter.com/Manst3Frost',
     linkedIn:'false',
-    image:'member2.jpeg'
+    image:'Kwesi Frost.jpeg'
   },
   {
-    name:'unknown',
+    name:'Jane Cecil Dadzie',
     facebook:'false',
     instagram:'https://instagram.com/janececildadzie?igshid=YmMyMTA2M2Y=',
     twitter:'false',
     linkedIn:'false',
-    image:'member3.jpeg'
+    image:'Jane Cecil Dadzie.jpeg'
   },
   {
-    name:'unknown',
+    name:'Dyna Frimpong',
     facebook:'https://www.facebook.com/diana.b.frimpong?mibextid=LQQJ4d  ',
     instagram:'https://www.instagram.com/__efya__/ ',
     twitter:'https://twitter.com/Diana_BF',
     linkedIn:'https://www.linkedin.com/in/diana-botchway-frimpong-590097116',
-    image:'member4.jpeg'
+    image:'Dyna Frimpong.jpeg'
   },
   {
-    name:'unknown',
+    name:'Priscilla Loh',
     facebook:'false ',
     instagram:'https://instagram.com/_cillah_?igshid=YmMyMTA2M2Y=',
     twitter:'https://twitter.com/_cillah_?s=21&t=68yqI-s1EJqYNve7l6LoaQ',
     linkedIn:'false',
-    image:'member5.jpeg'
+    image:'Priscilla Loh.jpeg',
+   
+  },
+  {
+    name:' Richard NAG Agyemang',
+    facebook:'https://www.facebook.com/richard.osafoagyeman  ',
+    instagram:'https://instagram.com/nagwear?igshid=YmMyMTA2M2Y=',
+    twitter:'https://twitter.com/_cillah_?s=21&t=68yqI-s1EJqYNve7l6LoaQ',
+    linkedIn:'false',
+    image:'Richard NAG Agyemang.jpeg',
+ 
   },
 ]
 
 </script>
-<div class=" justify-start  container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-0 ">
+<div class=" justify-start  container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-4 ">
   {#each memberList as member }
   <Member memberData = {member}/>
   {/each}
