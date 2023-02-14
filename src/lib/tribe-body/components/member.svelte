@@ -8,16 +8,16 @@
         image:''
     }
 
-    console.log(
-        memberData.linkedIn 
-    )
+   
    
 </script>
 
-<div class="flex flex-col justify-between  h-48 w-40 md:w-64 md:h-80 md:mt-10  p-3 uppercase mb-3">
-    <div class="image h-4/5  border"><img src="tribemembers/{memberData.image}" alt="{memberData.name} profile" class="w-full h-full"></div>
+<div class=" flex flex-col justify-between  h-72 w-1/2 p-3 md:w-72 md:h-96 md:p-5 md:mt-10  uppercase mb-3 ">
+    <div class=" h-4/5  shrink-0">
+        <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
+    </div>
     <div class="info">
-        <p class=" ml-2 text-sm md:text-xl antialiased md:mt-5 text-center">{memberData.name}</p>
+        <p class=" ml-2 text-base md:text-xl antialiased md:mt-5 text-center">{memberData.name}</p>
     </div>
     <div class="socials mt-2 md:mt-5 flex justify-around items-center">
        <a  href={memberData.instagram} class:hidden={memberData.instagram ==='false'}><img src="/generalIcons/instagram.svg" alt="instagram"></a> 
