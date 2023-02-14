@@ -16,8 +16,8 @@
     <div class=" h-4/5  shrink-0">
         <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
     </div>
-    <div class="info ">
-        <p class=" ml-2 text-base md:text-xl antialiased  text-center">{memberData.name}</p>
+    <div class="w-full ">
+        <p class="w-full  text-sm md:text-xl  text-center">{memberData.name}</p>
     </div>
     <div class="socials mt-2 flex justify-start gap-5   items-center md:mt-5 ">
        <a  href={memberData.instagram} class:hidden={memberData.instagram ==='false'}><img src="/generalIcons/instagram.svg" alt="instagram"></a> 
