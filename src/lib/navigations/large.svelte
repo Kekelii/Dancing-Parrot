@@ -43,7 +43,7 @@
                 subscriberButton=false
     }
 </script>
-<div class=" md:h-1/5 hidden md:flex md:pt-5  md:pb-5    justify-between items-center large">
+<div class="container mx-auto md:h-1/5 hidden md:flex md:pt-5  md:pb-5  justify-between items-center large">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5  rounded-lg">
     <ul class='flex text-lg  justify-around items-center w-3/5'>
         <a href="/" class=''><button class="h-12 "><li>HOME</li></button></a>
@@ -54,11 +54,11 @@
        <button class="h-12 w-28 rounded-lg subscribe " on:click={subscriberButtonClick}>SUBSCRIBE</button>
     </ul>
 </div>
-<div class='    flex justify-end '>
+<div class=' container mx-auto   flex justify-end '>
     <div class:hidden={!subscriberButton} class="h-14  w-60 absolute flex justify-around items-center mr-5">
-        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"  bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
+        <a href="https://www.youtube.com/channel/UCGFnofILLEcUTy2s6hc1xCA/?sub_confirmation=1" target="_blank" rel="noopener noreferrer"  bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
+        <a href="https://twitter.com/kasa_theTribe" target="_blank" rel="noopener noreferrer" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
+        <a href="https://www.instagram.com/kasa_thetribe/" target="_blank" rel="noopener noreferrer"  bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
    </div>
 </div>
 

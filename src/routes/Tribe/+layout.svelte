@@ -2,7 +2,7 @@
     import "../../app.css";
   </script>
 
-<div class=" w-screen layout">
+<div class=" overflow-hidden layout">
 <slot></slot>
 </div>
 <style>

@@ -4,6 +4,7 @@
   import Product from "./components/product.svelte";
 
 </script>
+<div class="container mx-auto">
 <Header/>
 <ProductSection/>
-
+</div>

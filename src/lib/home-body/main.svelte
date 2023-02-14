@@ -9,9 +9,9 @@ import EpisodeTitle from "./components/episode-title.svelte";
   import StreamPlatforms from "./components/stream-platforms.svelte";
 
 </script>
-<div class=" mt-2 flex flex-col md:flex-row md:flex-wrap ">
+<div class="container mx-auto mt-2 flex flex-col md:flex-row md:flex-wrap ">
     <EpisodeTitle/>
-    <div class="second md:w-1/2  md:shrink-0 md:mb-20 md:mt-10  ">
+    <div class="container mx-auto  second md:w-1/2  md:shrink-0 md:mb-20 md:mt-10  ">
     <EpisodeNumber/>
     <EoisodeDate/>
     <EpisodeWriteup/>

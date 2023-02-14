@@ -72,7 +72,7 @@
 
 </script>
 
-<div class=" md:hidden w-screen h-24 flex justify-between items-center drop">
+<div class="container mx-auto md:hidden w-screen h-24 flex justify-between items-center drop">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5 rounded-lg">
     <button on:click={navigationStateController} class=" h-12 w-10"><img src="/buttonIcons/navButton.png" alt="navigation button"/></button>
 </div>
@@ -86,9 +86,9 @@
         <a href="/Store" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a>
         <button class="h-12 m-2 rounded-lg subscribe" on:click={subscriberButtonStateController}>SUBSCRIBE</button>
         <li class:hidden={!subscriberButtonState} class=" w-full h-14  items-center justify-around subscribtionChannels flex">
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="" srcset="" ></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="" srcset=""></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="" srcset=""></a>
+            <a href="https://www.youtube.com/channel/UCGFnofILLEcUTy2s6hc1xCA/?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="youtubesubscribe"  ></a>
+            <a href="https://twitter.com/kasa_theTribe" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={twitterFollowing}><img src="/generalIcons/twitter.svg" alt="twitter" srcset=""></a>
+            <a href="https://www.instagram.com/kasa_thetribe/" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={instagramFollowing}><img src="/generalIcons/instagram.svg" alt="instagram" srcset=""></a>
         </li>
     </ul>
 </div>

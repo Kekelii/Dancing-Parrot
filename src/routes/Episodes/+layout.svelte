@@ -2,7 +2,7 @@
     import "../../app.css";
   </script>
 
-<div class="w-full layout">
+<div class="ovflow-hidden layout">
 <slot></slot>
 </div>
 <style>
