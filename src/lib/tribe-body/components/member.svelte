@@ -9,7 +9,7 @@
     }
 </script>
 
-<div class="flex flex-col justify-around rounded-sm shadow-lg h-72 w-2/5  pb-2  md:w-72 md:h-96 md:p-5 md:mt-10 uppercase mb-3  md:shadow-lg md:rounded-xl"> 
+<div class="flex casing flex-col justify-around rounded-sm shadow-lg h-72 w-2/5  pb-2  md:w-72  md:p-5 md:mt-10 uppercase mb-3  md:shadow-lg md:rounded-xl"> 
     <div class=" h-4/5  shrink-0">
         <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
     </div>
@@ -29,4 +29,9 @@
     font-family: 'Bison', sans-serif;
                                                 
        }
+       @media (min-width: 768px) {
+   .casing{
+        height: 28rem/* 384px */;
+    }
+}
 </style>
