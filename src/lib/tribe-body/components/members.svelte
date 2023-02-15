@@ -40,6 +40,7 @@
     linkedIn:'false',
     image:'Jane Cecil Dadzie.jpeg'
   },
+  
   {
     name:'Dyna Frimpong',
     facebook:'https://www.facebook.com/diana.b.frimpong?mibextid=LQQJ4d  ',
@@ -47,6 +48,15 @@
     twitter:'https://twitter.com/Diana_BF',
     linkedIn:'https://www.linkedin.com/in/diana-botchway-frimpong-590097116',
     image:'Dyna Frimpong.jpeg'
+  },
+  {
+    name:'Sam Smith',
+    facebook:'false',
+    instagram:'https://www.instagram.com/mrsmith_gh/',
+    twitter:'https://twitter.com/_samsmithh_',
+    linkedIn:'false',
+    image:'Sam Smith.jpeg',
+ 
   },
   {
     name:'Priscilla Loh',
@@ -75,15 +85,7 @@
     image:'Nana Ofori.jpeg',
  
   },
-  {
-    name:'Sam Smith',
-    facebook:'false',
-    instagram:'https://www.instagram.com/mrsmith_gh/',
-    twitter:'https://twitter.com/_samsmithh_',
-    linkedIn:'false',
-    image:'Sam Smith.jpeg',
- 
-  },
+  
 ]
 
 </script>
