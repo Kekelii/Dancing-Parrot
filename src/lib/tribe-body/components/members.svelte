@@ -66,6 +66,15 @@
     image:'Richard NAG Agyemang.jpeg',
  
   },
+  {
+    name:'Nana Ofori',
+    facebook:'https://www.facebook.com/nanaofori.paabenii?mibextid=LQQJ4d',
+    instagram:'false',
+    twitter:'https://twitter.com/Nanaoforipaaben',
+    linkedIn:'false',
+    image:'Nana Ofori.jpeg',
+ 
+  },
 ]
 
 </script>
