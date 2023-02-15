@@ -7,4 +7,6 @@ import Header from "./components/header.svelte";
 
 <Header/>
 <Members/>
-<Footer/>
+<div class='mt-16'>
+  <Footer/>
+</div>

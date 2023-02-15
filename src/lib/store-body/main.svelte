@@ -9,4 +9,8 @@ import Header from "./components/header.svelte";
 <Header/>
 <ProductSection/>
 </div>
-<Footer/>
+<div class='mt-16'>
+  <Footer/>
+
+</div>
+

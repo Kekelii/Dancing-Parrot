@@ -6,13 +6,14 @@ import Header from "./components/header.svelte";
   import Writeup from "./components/writeup.svelte";
 
 </script>
-<div class="container mx-auto">
-  
+<div class="container mx-auto p-0">
     <Header/>
     <div class='md:flex md:justifty-between'>
     <Writeup/>
     <AboutLogo/>
   </div>
   <Hosts/>
+</div>
+<div class='mt-16'>
   <Footer/>
 </div>
