@@ -50,7 +50,7 @@
         <a href="/Episodes" class=''>  <button class=""><li>EPISODES</li></button></a>
         <a href="/Tribe" class=''> <button class=""><li>THE TRIBE</li></button></a>
         <a href="About" class=''>  <button class=""><li>ABOUT</li></button></a>
-        <a href="/Store" class=''>  <button class=""><li>STORE</li></button></a>
+        <!-- <a href="/Store" class=''>  <button class=""><li>STORE</li></button></a> -->
        <button class="h-12 w-28 rounded-lg subscribe " on:click={subscriberButtonClick}>SUBSCRIBE</button>
     </ul>
 </div>

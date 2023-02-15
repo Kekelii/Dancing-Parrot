@@ -83,7 +83,7 @@
         <a href="/Episodes" class='flex justify-center'>  <button class="h-12 P-5"><li>EPISODES</li></button></a>
         <a href="/Tribe" class='flex justify-center'> <button class="h-12 P-5"><li>THE TRIBE</li></button></a>
         <a href="About" class='flex justify-center'>  <button class="h-12 P-5"><li>ABOUT</li></button></a>
-        <a href="/Store" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a>
+        <!-- <a href="/Store" class='flex justify-center'>  <button class="h-12 P-5"><li>STORE</li></button></a> -->
         <button class="h-12 m-2 rounded-lg subscribe" on:click={subscriberButtonStateController}>SUBSCRIBE</button>
         <li class:hidden={!subscriberButtonState} class=" w-full h-14  items-center justify-around subscribtionChannels flex">
             <a href="https://www.youtube.com/channel/UCGFnofILLEcUTy2s6hc1xCA/?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="ml-5" bind:this={youtubeSubscription}><img src="/generalIcons/youtube.svg" alt="youtubesubscribe"  ></a>
