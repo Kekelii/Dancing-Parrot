@@ -69,7 +69,7 @@
 ]
 
 </script>
-<div class=" justify-evenly  gap-10 p-0 container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-4 ">
+<div class=" justify-around  p-0 container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-4 ">
   {#each memberList as member }
   <Member memberData = {member}/>
   {/each}
