@@ -75,6 +75,15 @@
     image:'Nana Ofori.jpeg',
  
   },
+  {
+    name:'Sam Smith',
+    facebook:'false',
+    instagram:'https://www.instagram.com/mrsmith_gh/',
+    twitter:'https://twitter.com/_samsmithh_',
+    linkedIn:'false',
+    image:'Sam Smith.jpeg',
+ 
+  },
 ]
 
 </script>
