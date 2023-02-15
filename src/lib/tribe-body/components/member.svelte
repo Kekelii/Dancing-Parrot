@@ -17,7 +17,7 @@
         <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
     </div>
    
-        <p class="w-full bg-slate-400 p-0 text-sm md:text-xl  text-center">{memberData.name}</p>
+        <p class="w-full bg-slate-400 p-0 text-sm md:text-xl  md:text-center">{memberData.name}</p>
   
     <div class="socials mt-2 flex justify-start gap-5   items-center md:mt-5 ">
        <a  href={memberData.instagram} class:hidden={memberData.instagram ==='false'}><img src="/generalIcons/instagram.svg" alt="instagram"></a> 
@@ -29,7 +29,6 @@
 
 <style>
    p{
-        font-family: bison;
-        
+        font-family: bison;  
     }
 </style>
