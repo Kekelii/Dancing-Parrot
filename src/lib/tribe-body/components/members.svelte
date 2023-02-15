@@ -38,7 +38,7 @@
     instagram:'https://instagram.com/janececildadzie?igshid=YmMyMTA2M2Y=',
     twitter:'false',
     linkedIn:'false',
-    image:'Jane Cecil Dadzie.jpeg'
+    image:'JANE CECIL DADZIE.jpeg'
   },
   {
     name:'Dyna Frimpong',
