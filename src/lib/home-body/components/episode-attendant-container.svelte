@@ -3,8 +3,7 @@
 
 </script>
 
-<div class="container mt-4 ml-5 w-4/5  flex ">
-    <EpisodeAttendants/>
-    <EpisodeAttendants/>
+<div class="container h-28 mt-4 ml-5 w-4/5 md:hidden flex ">
+   
 
 </div>

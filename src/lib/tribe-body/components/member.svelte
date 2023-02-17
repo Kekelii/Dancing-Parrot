@@ -16,7 +16,7 @@
    
         <span class="w-full  p-0 text-sm md:text-xl  md:text-center text-center">{memberData.name}</span>
   
-    <div class="socials mt-2 flex justify-start gap-5   items-center md:mt-5 ">
+    <div class="socials pl-1 mt-2 flex justify-start gap-5   items-center md:mt-5 ">
        <a  href={memberData.instagram} class:hidden={memberData.instagram ==='false'}><img src="/generalIcons/instagram.svg" alt="instagram"></a> 
        <a href={memberData.twitter} class:hidden={memberData.twitter ==='false'}><img src="/generalIcons/twitter.svg" alt="twitter"></a>
         <a href={memberData.facebook} class:hidden={memberData.facebook ==='false'}><img src="/generalIcons/facebook.svg" alt="facebook"></a>
