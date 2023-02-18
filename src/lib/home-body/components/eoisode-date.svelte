@@ -1,5 +1,9 @@
 <script>
-    export let date = '25th november 2025'
+     import {episode} from '../../episodeStores'
+
+     let date = '25th november 2025'
+     episode.subscribe(value=>date = value.date)
+
 </script>
 
 <div class="container pl-6 flex  text-base w-4/5 mt-3 uppercase">
