@@ -17,11 +17,11 @@
             <p class="date p-0 inline-block">{date}</p>
         </div>
         <div class=' mt-2 flex justify-around items-center p-1'>
-    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/spotify.png" class="md:h-5 h-4" alt="spotify"/></a>
-    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/Podcast.png" class="md:h-5 h-4" alt="spotify"/></a>
-    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/Google.png" class="md:h-5 h-4" alt="spotify"/></a>
-    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/pocketcast.png" class="md:h-5 h-4" alt="spotify"/></a>
-    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/radiopublic.png" class="md:h-5 h-4" alt="spotify"/></a>
+    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/spotify.svg" class="md:h-5 h-4 " alt="spotify"/></a>
+    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/apple.svg" class="md:h-5 h-4" alt="spotify"/></a>
+    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/google.svg" class="md:h-5 h-4" alt="spotify"/></a>
+    <!-- <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/pocketcast.png" class="md:h-5 h-4" alt="spotify"/></a>
+    <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/radiopublic.png" class="md:h-5 h-4" alt="spotify"/></a> -->
      
         </div>
     </div>
