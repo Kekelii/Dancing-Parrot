@@ -3,7 +3,9 @@
 		"src/routes/+page.js"
 	],
 	"/About": [],
-	"/Episodes": [],
+	"/Episodes": [
+		"src/routes/Episodes/+page.js"
+	],
 	"/Store": [],
 	"/Tribe": []
 }
