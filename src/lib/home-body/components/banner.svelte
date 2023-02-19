@@ -8,10 +8,10 @@
 
 <style>
   
-    p{
+    /* p{
         font-family: bison;
         color: #F1CD0C;
-    }
+    } */
     .banner{
         background: linear-gradient(180deg, #ffffff 0%, #e2dfb1 100%);
         box-shadow: 0 0 20px 20px rgb(164, 164, 164) inset;

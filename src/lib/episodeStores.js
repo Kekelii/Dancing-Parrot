@@ -1,4 +1,7 @@
-import { writable } from "svelte/store";
+import { writable, derived } from "svelte/store";
+
+let seasonOneEpisodes = 30;
+let seasonTwoEpisodes = 40;
 
 
 export const episode = writable()
