@@ -5,7 +5,7 @@
 
 </script>
 <div in:fade="{{duration:1000, delay:200}}"  class="text-5xl    hidden md:w-1/2 md:shrink-0 font-light tracking-wider uppercase pl-7 md:flex justify-center items-center md:mt-0">
-    <div class=" shadow opacity-70 flex justify-center border   banner  md:w-full md:h-4/5 rounded">
+    <div class=" shadow  flex justify-center border   banner  md:w-full md:h-4/5 rounded">
         <img src="/logo/home banner.jpeg" alt="" class="z-10  md:w-5/5 md:h-5/5 ">
     </div>
 </div>
