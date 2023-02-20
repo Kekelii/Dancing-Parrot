@@ -1,4 +1,5 @@
 <script>
+  import { fly } from "svelte/transition";
   import Member from "./member.svelte";
   let memberList = [{
     name:'Kwadwo Poku-Agyemang',
@@ -89,7 +90,7 @@
 ]
 
 </script>
-<div class=" justify-around  p-0 container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-4 ">
+<div in:fly="{{y:200,duration:2000 ,delay:100}}"  class=" justify-around  p-0 container mx-auto mt-20 flex flex-wrap  md:p-10 md:justify-start md:gap-4 ">
   {#each memberList as member }
   <Member memberData = {member}/>
   {/each}

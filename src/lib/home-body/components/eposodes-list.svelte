@@ -5,6 +5,8 @@ import { tweened,} from 'svelte/motion';
 import { cubicInOut, cubicOut} from 'svelte/easing';
   import EpisodeListTile from "./episode-list-tile.svelte";
   import { each } from "svelte/internal";
+  import { fly } from "svelte/transition";
+
 
 export let episodes
         
@@ -34,7 +36,7 @@ export let episodes
 <div class="container mx-auto  h-20 mt-5 md:mt-5 md:justify-around flex items-center ">
    <!-- svelte-ignore a11y-click-events-have-key-events -->
    <!-- <div on:click={snapleft} class="left-arrow w-8 h-8 bg-white absolute rounded-full flex items-center justify-center" ><img src="/generalIcons/left arrow.png" alt="arrow"></div> -->
-   <ul bind:this={list}  class='w-full md:w-4/5 h-20 flex uppercase items-center overflow-x-auto scroll-smooth' >
+   <ul in:fly="{{y:200,duration:1000,delay:200}}"  bind:this={list}  class='w-full md:w-4/5 h-20 flex uppercase items-center overflow-x-auto scroll-smooth' >
    {#each episodes as episode }
     <EpisodeListTile data= {episode}/>
    {/each}

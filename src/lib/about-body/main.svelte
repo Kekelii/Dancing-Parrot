@@ -12,7 +12,7 @@ import Header from "./components/header.svelte";
     <Writeup/>
     <AboutLogo/>
   </div>
-  <Hosts/>
+  <!-- <Hosts/> -->
 </div>
 <div class='mt-16'>
   <Footer/>
