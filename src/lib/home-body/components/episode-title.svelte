@@ -15,6 +15,6 @@
 <style>
     div{
         font-family: bison;
-        color: #F1CD0C;
+       
     }
 </style>

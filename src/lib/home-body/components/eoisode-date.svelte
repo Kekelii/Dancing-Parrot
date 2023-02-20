@@ -14,7 +14,7 @@
 
 <style>
     span{
-        color: #F1CD0C;
+        
         font-family: bison;
     }
 </style>
