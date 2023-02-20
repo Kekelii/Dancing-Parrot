@@ -29,9 +29,9 @@ episode.set({
 <div class="container   h-4/5 mx-auto mt-12 p-0 flex flex-col md:flex-row md:mt-0 md:h-4/5 md:pb-2">
     <Banner/>
     <div class="container mx-auto  second md:w-1/2   md:mt-10  ">
-    <EpisodeTitle/>
-    <EpisodeNumber/>
-    <EoisodeDate/>
+     <EpisodeNumber/> 
+     <EpisodeTitle/>
+    <!-- <EoisodeDate/> -->
     <EpisodeWriteup/> 
     <!-- <EpisodeAttendantContainer/> -->
     <StreamPlatforms/>
