@@ -8,7 +8,7 @@
 
 onDestroy(unsubscribe)
 </script>
-<div in:fade="{{duration:1000}}" class=" subpixel-antialiased scrollbar-hidden font-medium w-5/5  h-80 ml-5 mr-5 text-xs  md:text-sm  tracking-wider leading-relaxed text-left  mt-2 overflow-y-auto md:w-5/5  md:h-44 ">
+<div in:fade="{{duration:2000,delay:600}}" class=" subpixel-antialiased scrollbar-hidden font-medium w-5/5  h-80 ml-5 mr-5 text-xs  md:text-sm  tracking-wider leading-relaxed text-left  mt-2 overflow-y-auto md:w-5/5  md:h-44 ">
     {writeup}
 </div>
 <style>

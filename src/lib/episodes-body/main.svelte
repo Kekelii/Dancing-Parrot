@@ -14,7 +14,7 @@ export let data
   <div class='flex flex-col  md:h-56'>
     <Header/>
     <EpisodesNumbers data={data.episodeTotal}/>
-    <img in:fade="{{duration:200}}"  src="/banner/episodesBanner.jpeg" class='h-24 ml-56 absolute md:ml-0 opacity-70  md:h-2/5 md:absolute ' alt="">
+    <img in:fade="{{duration:200}}"  src="/banner/episodesBanner.jpeg" class='h-24 ml-56 absolute md:ml-0 opacity-70 md:w-2/5 md:h-60 ' alt="episodes banner">
   </div>
     <Seasons seasonnumber=3 data={data.seasonThree}/>
     <Seasons seasonnumber=2 data={data.seasonTwo}/>
