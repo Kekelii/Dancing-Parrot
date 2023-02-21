@@ -1,8 +1,9 @@
 <script>
-    import "../app.css";
+    import Footer from "$lib/home-body/components/footer.svelte";
+import "../app.css";
   </script>
 
-<div class=" overflow-hidden  layout pb-8 m-0 ">
+<div class="  h-screen overflow-y-auto layout  m-0 ">
 <slot></slot>
 </div>
 <style>

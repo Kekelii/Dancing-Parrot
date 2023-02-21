@@ -2,7 +2,7 @@
     import "../../app.css";
   </script>
 
-<div class="ovflow-hidden layout">
+<div class="h-screen overflow-y-auto layout">
 <slot></slot>
 </div>
 <style>

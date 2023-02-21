@@ -1,6 +1,6 @@
 <script>
   import Banner from "./components/banner.svelte";
-  import EoisodeDate from "./components/eoisode-date.svelte";
+  import EoisodeDate from "./components/episode-date.svelte";
   import EpisodeAttendantContainer from "./components/episode-attendant-container.svelte";
   import EpisodeNumber from "./components/episode-number.svelte";
   import EpisodeTitle from "./components/episode-title.svelte";
@@ -9,6 +9,8 @@
   import Footer from "./components/footer.svelte";
   import StreamPlatforms from "./components/stream-platforms.svelte";
   import {episode} from '../episodeStores'
+  import EpisodeListTile from "./components/episode-list-tile.svelte";
+  import EpisodeDate from "./components/episode-date.svelte";
 /**
    * @type {any}
    */
@@ -26,16 +28,15 @@ episode.set({
 })
 
 </script>
-<div class="container   h-4/5 mx-auto mt-12 p-0 flex flex-col md:flex-row md:mt-0 md:h-4/5 md:pb-2">
+<div class="container  h-4/5 mx-auto mt-12 p-3 flex flex-col md:flex-row md:mt-0  md:pb-2 ">
     <Banner/>
-    <div class="container mx-auto  second md:w-1/2   md:mt-10  ">
-     <EpisodeNumber/> 
+    <div class="container mx-auto  second md:w-1/2   md:mt-10 ">
+    
+      <EpisodeNumber/> 
      <EpisodeTitle/>
-    <!-- <EoisodeDate/> -->
     <EpisodeWriteup/> 
-    <!-- <EpisodeAttendantContainer/> -->
     <StreamPlatforms/>
+    <!-- <EposodesList episodes={data}/> -->
    </div>
 </div>
-<EposodesList episodes={data}/>
 <Footer/>

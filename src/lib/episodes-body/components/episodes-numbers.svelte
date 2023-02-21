@@ -1,18 +1,20 @@
 <script>
+  import { episode } from "$lib/episodeStores";
+  import { onDestroy } from "svelte";
   import { fly } from "svelte/transition";
 
 
-    export let data=0;
-
+    export let episodenumber=0;
+    const unsubscribe = episode.subscribe(n=>episodenumber=n.number )
     
+    onDestroy(unsubscribe)
 </script>
 
-<p in:fly="{{x:2000}}"  class="inline-block pl-7 text-3xl md:text-right md:pr-10 uppercase tracking-wide pt-3">{data} EPISODE </p>
+<p in:fly="{{x:2000}}"  class=" pl-7 text-3xl md:text-right md:pr-10 uppercase tracking-wide pt-3"> EPISODE {episodenumber} </p>
 
 
 <style>
     p{
         font-family: bison;
-      
     }
 </style>
