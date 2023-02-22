@@ -6,6 +6,6 @@
 <style>
     p{
         font-family: bison;
-        
+        color:#c08e0b;
     }
 </style>
