@@ -15,7 +15,7 @@
    <p class=" w-full p-1 md:w-full  text-base font-bold tracking-wide text-left break-words">
     Our hosts are a diverse group of individuals with different backgrounds and 
     perspectives, but we share a passion for social justice and creating positive change in 
-    the world.Join us on our journey to promote empathy, understanding, and dialogue.   
+    the world. Join us on our journey to promote empathy, understanding, and dialogue.   
    </p >
    <p class=" w-full p-1 md:w-full text-base font-bold tracking-wide text-left break-words">
     Follow us on social media for updates on our latest episodes, behind-the-scenes footage,
