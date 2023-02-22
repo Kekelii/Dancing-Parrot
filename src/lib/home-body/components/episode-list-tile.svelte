@@ -24,6 +24,6 @@
 <li on:click={stage} class="cursor-pointer h-12 md:h-16 shrink-0 rounded-md w-24 flex ml-2 mr-2 justify-center items-center text-xl">E{data.episodeNumber}</li>
    <style>
      li{
-        background-color: #FEDF6F;
+        background-color: #c08e0b;
     }
    </style>
