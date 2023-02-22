@@ -1,13 +1,15 @@
 <script>
+  import { episode } from '$lib/episodeStores';
   import { fade } from 'svelte/transition';
 
      let date = '25th november 2025'
+     const unsubscribe= episode.subscribe(n=> date = n.date)
  
 
 </script>
 
 <div class="container pl-6 flex  text-base w-4/5 mt-3 uppercase">
-<img in:fade="{{duration:1000}}"   src="/generalIcons/calender.svg" class='w-6 h-6' alt="calandericon"/>
+<img in:fade="{{duration:1000}}" src="/generalIcons/calender.svg" class='w-6 h-6' alt="calandericon"/>
 <span in:fade="{{duration:1000,delay:20}}" class="ml-4 tracking-widest">{date}</span>
 </div>
 

@@ -37,16 +37,10 @@
     <StreamPlatforms/>
   </div>
   <hr class='pt-2 container md:hidden'>
-  <div class='md:h-4/5 md:w-1/2 overflow-y-auto  p-1 container mx-a\ h-32 w-full'>
+  <div id="episode" class='md:h-4/5 md:w-1/2 overflow-y-auto  p-1 container mx-a\ h-32 w-full'>
         <Seasons seasonnumber=3 data={data.seasonThree}/>
         <Seasons seasonnumber=2 data= {data.seasonTwo}/>
         <Seasons seasonnumber=1 data= {data.seasonOne}/> 
   </div>
 </div>
-   
-
-
-
-
-
 <Footer/>
