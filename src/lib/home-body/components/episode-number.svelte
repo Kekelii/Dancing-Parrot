@@ -12,7 +12,6 @@
 <style>
     p{
         font-family: bison;
-        color: white;
       
     }
     #latest_episode{

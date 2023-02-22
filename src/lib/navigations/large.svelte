@@ -65,7 +65,7 @@
 <style>
   
     a{
-        color:white
+        color:#c08e0b;
     }
     ul{
         font-family: Bison;
