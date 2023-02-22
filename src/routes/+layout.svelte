@@ -9,6 +9,6 @@ import "../app.css";
 <style>
     .layout{
         /* background: linear-gradient(180deg, #FFFFFF 0%, #FFFACB 100%); */
-        background-color: black;
+        background-color: #c5bda8;
     }
 </style>
