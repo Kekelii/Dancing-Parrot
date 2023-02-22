@@ -30,8 +30,9 @@
 
 <div class="container mx-auto flex-col p-0 md:h-3/5 flex mt-5 md:flex-row justify-around items-center">
   <div class='flex flex-col md:flex-col p-3 items-start md:w-1/2 md:h-full'>   
+     <EpisodesNumbers/> 
     <EpisodeTitle />      
-    <EpisodesNumbers/>
+  
     <EpisodeDate/>
     <EpisodeWriteup/>
     <StreamPlatforms/>
