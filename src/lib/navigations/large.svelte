@@ -43,7 +43,7 @@
                 subscriberButton=false
     }
 </script>
-<div class="container mx-auto md:h-1/5 hidden md:flex md:pt-5  md:pb-5  justify-between items-center large">
+<div class="container  mx-auto md:h-1/5 hidden md:flex md:pt-5  md:pb-5  justify-between items-center large">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5  rounded-lg">
     <ul class='flex text-lg  justify-around items-center w-3/5'>
         <a href="/" class=''><button class="h-12 "><li>HOME</li></button></a>
@@ -64,7 +64,9 @@
 
 <style>
   
- 
+    a{
+        color:white
+    }
     ul{
         font-family: Bison;
     }
