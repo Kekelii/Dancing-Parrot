@@ -1,15 +1,28 @@
 <script>
   import { fade } from "svelte/transition";
+  import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+  import '@splidejs/svelte-splide/css';
 
 
 
 </script>
-<div in:fade="{{duration:1000, delay:200}}"  class="text-5xl w-2/2 hidden md:w-1/2 md:shrink-0  uppercase  md:flex md:justify-center items-center md:mt-0  ">
-    <div class="  flex justify-center  banner border   md:w-full md:h-4/5 rounded">
-        <img src="/logo/home banner.jpeg" alt="" class="z-10  md:w-5/5 md:h-5/5 ">
-    </div>
+<div class='w-2/2 hidden md:w-1/2 md:shrink-0 md:flex md:justify-center md:items-center'>
+<Splide   options={ {
+    rewind: true,
+    gap   : '2rem',
+    autoplay:true,
+    pauseOnHover:true
+  } }>
+    <SplideSlide>
+       <a href="http://"><img src="/banner/episodesBanner.jpeg" alt="kasaYoutube"></a> 
+    </SplideSlide>
+    <SplideSlide>
+        <a href="http://"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
+     </SplideSlide> <SplideSlide>
+        <a href="http://"><img src="/banner/anaansestory.jpeg" alt="kasaYoutube"></a> 
+     </SplideSlide>
+</Splide>
 </div>
-
 <style>
   
     /* p{

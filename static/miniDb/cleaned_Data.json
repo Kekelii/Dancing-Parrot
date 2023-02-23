@@ -6,7 +6,8 @@
             "links": {
                 "googlePodcast": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80YzY2MDEzOC9wb2RjYXN0L3Jzcw/episode/MWIyNzYxNmMtZTYzYy00MTVlLTgzMWUtYmI3ZDQ5MzY5ZDg5?sa=X&ved=0CAUQkfYCahcKEwjIv_Om6KP9AhUAAAAAHQAAAAAQBQ",
                 "spotify": "https://open.spotify.com/episode/2mo6vpo5xriFhzJGNaWCPn",
-                "applePodcast": "https://podcasts.apple.com/us/podcast/78-humanity-and-artificial-intelligence/id1553517709?i=1000600442439"
+                "applePodcast": "https://podcasts.apple.com/us/podcast/78-humanity-and-artificial-intelligence/id1553517709?i=1000600442439",
+                "youtube": "https://www.youtube.com/watch?v=J1xD2zRrdKk"
             }
         }, {
             "title": " Exploring the Intersection of Internet Security and Artificial Intelligence",

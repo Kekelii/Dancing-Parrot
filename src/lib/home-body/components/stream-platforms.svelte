@@ -4,11 +4,13 @@
      let spotify='#'
     let apple ='#'
     let google ='#'
+    let youtube='#'
 
     episode.subscribe(data=>{
         spotify = data.spotifyLink
         apple = data.appleLink
         google = data.googleLink
+        youtube = data.youtubeLink
     })
 </script>
 <hr class='pt-2 container '>
@@ -17,4 +19,5 @@
     <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/spotify.svg" alt="spotify" class='w-10 h-7'/></a>
     <a href={apple} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/apple.svg" alt="apple" class='w-10 h-7' /></a>
     <a href={google} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/google.svg" alt="spotify" class="w-10 h-7"/></a>
+    <a href={youtube} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/youtube.svg" alt="spotify" class="w-10 h-7"/></a>
 </div>

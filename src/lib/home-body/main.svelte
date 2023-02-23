@@ -24,7 +24,8 @@ episode.set({
   description:firstLoad.descriptions,
   appleLink:firstLoad.links.applePodcast,
   googleLink:firstLoad.links.googlePodcast,
-  spotifyLink:firstLoad.links.spotify
+  spotifyLink:firstLoad.links.spotify,
+  youtubeLink:firstLoad.links.youtube
 })
 
 </script>
