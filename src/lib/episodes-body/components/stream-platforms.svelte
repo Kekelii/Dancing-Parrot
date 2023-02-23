@@ -9,10 +9,10 @@
     let google ='#'
 
     const unsubscribe = episode.subscribe(n=>{
-        console.log(n)
-        spotify = n.links.spotify;
-        apple = n.links.applePodcast;
-        google = n.links.googlePodcast; 
+    
+        spotify = n.spotifyLink;
+        apple = n.appleLink;
+        google = n.googleLink; 
     })
 
    

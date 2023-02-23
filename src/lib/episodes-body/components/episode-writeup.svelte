@@ -18,7 +18,7 @@
     function writeUpTrimmer(value){
       if(typeof(value.writeup)=='string'){   
         writeUpLength= value.writeup.length
-        console.log(writeUpLength)
+      
       return value.writeup.slice(0,400)
       }
     }

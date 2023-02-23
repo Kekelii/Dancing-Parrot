@@ -3,14 +3,13 @@
 
   import Footer from "$lib/home-body/components/footer.svelte";
   import EpisodesNumbers from "./components/episodes-numbers.svelte";
-  import Header from "./components/header.svelte";
   import EpisodeTitle from "./components/episode-title.svelte";
   import EpisodeWriteup from "./components/episode-writeup.svelte";
   import EpisodeDate from "./components/episode-date.svelte";
   import StreamPlatforms from "./components/stream-platforms.svelte";
   import Seasons from "./components/seasons.svelte";
   import { episode } from "$lib/episodeStores";
-  import { onDestroy } from "svelte";
+
 
   export let data
 
@@ -20,7 +19,10 @@
       title:data.seasonThree[0].title,
       description:data.seasonThree[0].descriptions,
       date:data.seasonThree[0].date,
-      links:data.seasonThree[0].links
+      links:data.seasonThree[0].links,
+      appleLink:data.seasonThree[0].links.applePodcast,
+      googleLink:data.seasonThree[0].links.googlePodcast,
+      spotifyLink:data.seasonThree[0].links.spotify
     }
    )
  
