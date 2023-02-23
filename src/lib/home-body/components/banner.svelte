@@ -14,12 +14,12 @@
     pauseOnHover:true
   } }>
     <SplideSlide>
-       <a href="http://"><img src="/logo/home banner.jpeg" alt="kasaYoutube"></a> 
+       <a href="https://www.youtube.com/@kasapodcast"><img src="/logo/home banner.jpeg" alt="kasaYoutube"></a> 
     </SplideSlide>
     <SplideSlide>
-        <a href="http://"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
+        <a href="https://youtu.be/udCzkkm1NMg"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
      </SplideSlide> <SplideSlide>
-        <a href="http://"><img src="/banner/anaansestory.jpeg" alt="kasaYoutube"></a> 
+        <a href="https://www.youtube.com/watch?v=sVgsKhyltbU"><img src="/banner/anaansestory.jpeg" alt="kasaYoutube"></a> 
      </SplideSlide>
 </Splide>
 </div> 
