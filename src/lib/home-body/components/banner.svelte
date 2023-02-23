@@ -14,7 +14,7 @@
     pauseOnHover:true
   } }>
     <SplideSlide>
-       <a href="http://"><img src="/banner/episodesBanner.jpeg" alt="kasaYoutube"></a> 
+       <a href="http://"><img src="/logo/home banner.jpeg" alt="kasaYoutube"></a> 
     </SplideSlide>
     <SplideSlide>
         <a href="http://"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
@@ -22,7 +22,7 @@
         <a href="http://"><img src="/banner/anaansestory.jpeg" alt="kasaYoutube"></a> 
      </SplideSlide>
 </Splide>
-</div>
+</div> 
 <style>
   
     /* p{
