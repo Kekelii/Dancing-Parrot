@@ -9,10 +9,13 @@
     let google ='#'
 
     const unsubscribe = episode.subscribe(n=>{
-        spotify = n.spotifyLink;
-        apple = n.applePodcast;
-        google = n.googlePodcast; 
+        console.log(n)
+        spotify = n.links.spotify;
+        apple = n.links.applePodcast;
+        google = n.links.googlePodcast; 
     })
+
+   
     onDestroy(unsubscribe)
 </script>
 <!-- <div class="pt-1 container md:hidden ">
