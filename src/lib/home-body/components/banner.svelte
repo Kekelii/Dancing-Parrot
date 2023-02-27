@@ -10,9 +10,9 @@
     </SplideSlide>
     <SplideSlide>
      <a href="https://www.youtube.com/watch?v=JJffM59fFPw"><img src="/banner/breaking ice.jpeg" alt="kasaYoutube"></a> 
-         </SplideSlide>
-          <a href="https://youtu.be/udCzkkm1NMg"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
-     <SplideSlide>
+    </SplideSlide>
+   <SplideSlide>
+       <a href="https://youtu.be/udCzkkm1NMg"><img src="/banner/waakye.jpeg" alt="kasaYoutube"></a> 
        </SplideSlide>
 </Splide>
 </div> 
