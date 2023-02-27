@@ -1,37 +1,25 @@
 <script>
 // @ts-nocheck
-
-  import { onMount } from "svelte";
-
-
-
-
     $:mobileNavigationState = false
     $:subscriberButtonState = false
    
     let mobileNavigation;
-   
     let instagramFollowing , youtubeSubscription , twitterFollowing;
 
- 
-   function navigationStateController(){
+    function navigationStateController(){
         if(mobileNavigationState){
              // @ts-ignore
              gsap.to(mobileNavigation,{x:150,duration:0.3})
-
              subscriberButtonState? subscriberButtonStateController():""
-             
-            setTimeout(()=>{
+             setTimeout(()=>{
                 mobileNavigationState = false
                 
-            },100)
+             },100)
             return
         }
-    
            // @ts-ignore
            gsap.fromTo(mobileNavigation,{x:40},{x:4,duration:1,ease: "bounce.out"})
-           mobileNavigationState = true
-          
+           mobileNavigationState = true   
     }
     function subscriberButtonStateController(){
         if(!subscriberButtonState){
@@ -66,17 +54,13 @@
             
                 return
         }
-         
                 subscriberButtonState=false
     }
-
 </script>
-
 <div class="container mx-auto md:hidden w-screen h-24 flex justify-between items-center drop">
     <img src="/logo/logo.png" alt="logo" class="w-14 h-14 ml-5 rounded-lg">
     <button on:click={navigationStateController} class=" h-12 w-10"><img src="/buttonIcons/navButton.png" alt="navigation button"/></button>
 </div>
-
 <div  class:hidden={!mobileNavigationState} bind:this={mobileNavigation} class="mobileNavigation md:hidden absolute ml-36 opacity-90 w-52"  >
     <ul class='flex flex-col text-lg'>
         <a href="/" class='flex justify-center'><button class="h-12 p-5"><li>HOME</li></button></a>
@@ -92,8 +76,6 @@
         </li>
     </ul>
 </div>
-
-
     <style>
         .subscribe{
             background-color: #c08e0b;

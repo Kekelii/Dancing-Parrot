@@ -1,9 +1,8 @@
 <script>
 // @ts-nocheck
    import { fly } from "svelte/transition";
-  import EposodesList from "$lib/home-body/components/eposodes-list.svelte";
+   import EposodesList from "$lib/home-body/components/eposodes-list.svelte";
 
-  
   export let seasonnumber = 1;
   export let data=[]
 
@@ -12,7 +11,6 @@
     <p class="uppercase md:text-4xl  font-light leading-10 tracking-wide inline-block md:mb-5 m ml-5 ">Season {seasonnumber}</p>
     <EposodesList episodes={data}/>
 </div>
-
 <style>
     p{
         font-family: bison;

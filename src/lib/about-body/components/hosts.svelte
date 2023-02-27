@@ -1,6 +1,4 @@
 <script>
-  import EpisodeAttendantContainer from "$lib/home-body/components/episode-attendant-container.svelte";
-  import EpisodeAttendants from "$lib/home-body/components/episode-attendants.svelte";
   import HostContainer from "./host-container.svelte";
 
 </script>

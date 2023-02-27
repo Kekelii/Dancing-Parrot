@@ -1,10 +1,7 @@
 <script>
 // @ts-nocheck
-
     $:subscriberButton=false;
     let youtubeSubscription,twitterFollowing,instagramFollowing;
-
-
 
     function subscriberButtonClick(){
         if(!subscriberButton){
@@ -36,10 +33,8 @@
                     duration:0.7,
                     delay:0.3
                 })
-            
                 return
-        }
-         
+                    }
                 subscriberButton=false
     }
 </script>
@@ -63,7 +58,6 @@
 </div>
 
 <style>
-  
     a{
         color:#c08e0b;
     }
@@ -72,6 +66,5 @@
     }
     .subscribe{
             background-color: #c08e0b;
-        }
-    
+        }  
 </style>

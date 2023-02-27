@@ -5,18 +5,18 @@
    * @type {any}
    */
     export let data;
-  
+
     function stage(){
-         episode.set({
-            title:data.title,
-            number:data.episodeNumber,
-            date:data.date,
-            description:data.descriptions,
-            appleLink:data.links.applePodcast,
-            googleLink:data.links.googlePodcast,
-            spotifyLink:data.links.spotify
-         })
-    }
+                        episode.set({
+                           title:data.title,
+                           number:data.episodeNumber,
+                           date:data.date,
+                           description:data.descriptions,
+                           appleLink:data.links.applePodcast,
+                           googleLink:data.links.googlePodcast,
+                           spotifyLink:data.links.spotify
+                                    })
+                      }
  
 </script>
 

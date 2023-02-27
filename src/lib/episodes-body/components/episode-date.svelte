@@ -4,8 +4,6 @@
 
      let date = '25th november 2025'
      const unsubscribe= episode.subscribe(n=> date = n.date)
- 
-
 </script>
 
 <div class="container pl-6 flex  text-base w-4/5 mt-3 uppercase">

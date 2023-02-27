@@ -8,14 +8,11 @@
         image:''
     }
 </script>
-
 <div class="flex casing flex-col justify-around rounded-sm  border shadow-2xl h-72 w-2/5  pb-2  md:w-72  md:p-5 md:mt-10 uppercase mb-3  md:shadow-lg md:rounded-xl"> 
     <div class=" h-4/5  shrink-0">
         <img src="tribemembers/{memberData.image}" alt="{memberData.name}'s' profile" class="object-center h-full w-full">
     </div>
-   
         <span class="w-full  p-0 text-sm md:text-xl  md:text-center text-center">{memberData.name}</span>
-  
     <div class="socials pl-1 mt-2 flex justify-start gap-5   items-center md:mt-5 ">
        <a  href={memberData.instagram} class:hidden={memberData.instagram ==='false'}><img src="/generalIcons/instagram.svg" alt="instagram"></a> 
        <a href={memberData.twitter} class:hidden={memberData.twitter ==='false'}><img src="/generalIcons/twitter.svg" alt="twitter"></a>
@@ -23,11 +20,9 @@
         <a href={memberData.linkedIn} class:hidden={memberData.linkedIn=='false'}><img src="/generalIcons/linkedin.svg" alt="linkedIn"></a>
     </div>
 </div>
-
 <style>
    span{
-    font-family: 'Bison', sans-serif;
-                                                
+    font-family: 'Bison', sans-serif;                                       
        }
        @media (min-width: 768px) {
    .casing{

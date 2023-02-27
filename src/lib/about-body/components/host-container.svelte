@@ -1,5 +1,5 @@
 <script>
-    // export let name ='member name';
+    
     export let image ='generalIcons/account.png' 
 </script>
 

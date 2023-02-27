@@ -10,31 +10,26 @@
   import Seasons from "./components/seasons.svelte";
   import { episode } from "$lib/episodeStores";
 
-
   export let data
 
-   const unsubscribe = episode.set(
-    {
-      number:data.seasonThree[0].episodeNumber,
-      title:data.seasonThree[0].title,
-      description:data.seasonThree[0].descriptions,
-      date:data.seasonThree[0].date,
-      links:data.seasonThree[0].links,
-      appleLink:data.seasonThree[0].links.applePodcast,
-      googleLink:data.seasonThree[0].links.googlePodcast,
-      spotifyLink:data.seasonThree[0].links.spotify
-    }
-   )
- 
-
-
+   episode.set(
+                {
+                  number:data.seasonThree[0].episodeNumber,
+                  title:data.seasonThree[0].title,
+                  description:data.seasonThree[0].descriptions,
+                  date:data.seasonThree[0].date,
+                  links:data.seasonThree[0].links,
+                  appleLink:data.seasonThree[0].links.applePodcast,
+                  googleLink:data.seasonThree[0].links.googlePodcast,
+                  spotifyLink:data.seasonThree[0].links.spotify
+                }
+             )
 </script>
 
 <div class="container mx-auto flex-col p-0 md:h-3/5 flex mt-5 md:flex-row justify-around items-center">
   <div class='flex flex-col md:flex-col p-3 items-start md:w-1/2 md:h-full'>   
      <EpisodesNumbers/> 
     <EpisodeTitle />      
-  
     <EpisodeDate/>
     <EpisodeWriteup/>
     <StreamPlatforms/>
