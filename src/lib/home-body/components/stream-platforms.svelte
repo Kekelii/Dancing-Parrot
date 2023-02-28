@@ -18,6 +18,6 @@
 <div in:fade="{{duration:1000,delay:310}}" class="container w-screen md:w-1/2 flex justify-around items-center h-5 mt-1">
     <a href={spotify} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/spotify.svg" alt="spotify" class='w-10 h-7'/></a>
     <a href={apple} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/apple.svg" alt="apple" class='w-10 h-7' /></a>
-    <a href={google} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/google.svg" alt="spotify" class="w-10 h-7"/></a>
-    <a href={youtube} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/youtubeEpisode.svg" alt="spotify" class="w-10 h-7"/></a>
+    <a href={google} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/google.svg" alt="google" class="w-10 h-7"/></a>
+    <a href={youtube} target="_blank" class='inline' rel="noopener noreferrer"><img src="/generalIcons/youtubeEpisode.svg" alt="youtube" class="w-10 h-7"/></a>
 </div>
